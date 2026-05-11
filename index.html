@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlumConnect — Alumni Mentorship Chatbot</title>
+    <meta name="description"
+        content="Get personalized career guidance from experienced alumni mentors across software, AI/ML, core engineering, startups, and government sectors.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <div id="onboarding-screen" class="screen active">
+        <div class="onboarding-container">
+            <div class="onboarding-header">
+                <div class="logo-mark">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="22" stroke="url(#logo-grad)" stroke-width="2.5" fill="none" />
+                        <path d="M16 32 L24 14 L32 32" stroke="url(#logo-grad)" stroke-width="2.5" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="24" cy="20" r="3" fill="url(#logo-grad)" />
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0" y1="0" x2="48" y2="48">
+                                <stop offset="0%" stop-color="#6C63FF" />
+                                <stop offset="100%" stop-color="#00D4AA" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <h1 class="onboarding-title">Alum<span class="gradient-text">Connect</span></h1>
+                <p class="onboarding-subtitle">Your personal alumni mentor network — powered by experience, not
+                    textbooks.</p>
+            </div>
+
+            <!-- Step Indicators -->
+            <div class="step-indicators">
+                <div class="step-dot active" data-step="1"></div>
+                <div class="step-line"></div>
+                <div class="step-dot" data-step="2"></div>
+                <div class="step-line"></div>
+                <div class="step-dot" data-step="3"></div>
+            </div>
+
+            <!-- Step 1: Education -->
+            <div class="onboarding-step active" id="step-1">
+                <div class="step-icon">🎓</div>
+                <h2>What's your current education level?</h2>
+                <p class="step-desc">This helps us match you with the right alumni mentor.</p>
+                <div class="option-grid">
+                    <button class="option-btn" data-field="education" data-value="B.Tech/B.E. (1st-2nd Year)">
+                        <span class="option-icon">📘</span>
+                        <span class="option-label">B.Tech/B.E.</span>
+                        <span class="option-sub">1st-2nd Year</span>
+                    </button>
+                    <button class="option-btn" data-field="education" data-value="B.Tech/B.E. (3rd-4th Year)">
+                        <span class="option-icon">📗</span>
+                        <span class="option-label">B.Tech/B.E.</span>
+                        <span class="option-sub">3rd-4th Year</span>
+                    </button>
+                    <button class="option-btn" data-field="education" data-value="M.Tech/MS">
+                        <span class="option-icon">📕</span>
+                        <span class="option-label">M.Tech / MS</span>
+                        <span class="option-sub">Postgraduate</span>
+                    </button>
+                    <button class="option-btn" data-field="education" data-value="Recent Graduate">
+                        <span class="option-icon">🎯</span>
+                        <span class="option-label">Recent Graduate</span>
+                        <span class="option-sub">0-1 Year Exp</span>
+                    </button>
+                    <button class="option-btn" data-field="education" data-value="Working Professional">
+                        <span class="option-icon">💼</span>
+                        <span class="option-label">Working Pro</span>
+                        <span class="option-sub">1+ Years Exp</span>
+                    </button>
+                    <button class="option-btn" data-field="education" data-value="Other">
+                        <span class="option-icon">🌟</span>
+                        <span class="option-label">Other</span>
+                        <span class="option-sub">Self-taught / Bootcamp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 2: Career Goal -->
+            <div class="onboarding-step" id="step-2">
+                <div class="step-icon">🚀</div>
+                <h2>What's your career goal?</h2>
+                <p class="step-desc">We'll connect you with an alumni who's been there.</p>
+                <div class="option-grid">
+                    <button class="option-btn" data-field="goal" data-value="Software Developer (SDE)">
+                        <span class="option-icon">💻</span>
+                        <span class="option-label">Software Dev</span>
+                        <span class="option-sub">SDE / Full-Stack</span>
+                    </button>
+                    <button class="option-btn" data-field="goal" data-value="AI/ML Engineer">
+                        <span class="option-icon">🤖</span>
+                        <span class="option-label">AI / ML</span>
+                        <span class="option-sub">Engineer / Researcher</span>
+                    </button>
+                    <button class="option-btn" data-field="goal" data-value="Data Science">
+                        <span class="option-icon">📊</span>
+                        <span class="option-label">Data Science</span>
+                        <span class="option-sub">Analyst / Scientist</span>
+                    </button>
+                    <button class="option-btn" data-field="goal" data-value="Core Engineering">
+                        <span class="option-icon">⚙️</span>
+                        <span class="option-label">Core Engg.</span>
+                        <span class="option-sub">Mech / Electrical / Civil</span>
+                    </button>
+                    <button class="option-btn" data-field="goal" data-value="Startup / Entrepreneurship">
+                        <span class="option-icon">🦄</span>
+                        <span class="option-label">Startup</span>
+                        <span class="option-sub">Founder / Early Stage</span>
+                    </button>
+                    <button class="option-btn" data-field="goal" data-value="Government / PSU">
+                        <span class="option-icon">🏛️</span>
+                        <span class="option-label">Govt / PSU</span>
+                        <span class="option-sub">GATE / UPSC / SSC</span>
+                    </button>
+                    <button class="option-btn" data-field="goal" data-value="Product Management">
+                        <span class="option-icon">📋</span>
+                        <span class="option-label">Product Mgmt</span>
+                        <span class="option-sub">PM / APM</span>
+                    </button>
+                    <button class="option-btn" data-field="goal" data-value="Cybersecurity">
+                        <span class="option-icon">🔐</span>
+                        <span class="option-label">Cybersecurity</span>
+                        <span class="option-sub">Security Analyst</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 3: Skill Level -->
+            <div class="onboarding-step" id="step-3">
+                <div class="step-icon">📈</div>
+                <h2>Where do you stand right now?</h2>
+                <p class="step-desc">Be honest — there's no wrong answer. This helps us calibrate.</p>
+                <div class="option-grid skill-grid">
+                    <button class="option-btn skill-btn" data-field="skill" data-value="Beginner">
+                        <span class="option-icon">🌱</span>
+                        <span class="option-label">Beginner</span>
+                        <span class="option-sub">Learning basics, no projects yet</span>
+                    </button>
+                    <button class="option-btn skill-btn" data-field="skill" data-value="Intermediate">
+                        <span class="option-icon">🌿</span>
+                        <span class="option-label">Intermediate</span>
+                        <span class="option-sub">Some projects, learning actively</span>
+                    </button>
+                    <button class="option-btn skill-btn" data-field="skill" data-value="Advanced">
+                        <span class="option-icon">🌳</span>
+                        <span class="option-label">Advanced</span>
+                        <span class="option-sub">Multiple projects, internship-ready</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="onboarding-nav">
+                <button id="btn-back" class="nav-btn secondary" style="visibility: hidden;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                    Back
+                </button>
+                <button id="btn-next" class="nav-btn primary" disabled>
+                    Next
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="mentor-cta">
+                <p>Are you an alumni or professional? <button id="btn-show-registration" class="text-link">Join as a Mentor</button></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== REGISTRATION SCREEN ==================== -->
+    <div id="registration-screen" class="screen">
+        <div class="registration-container">
+            <div class="registration-header">
+                <div class="logo-mark">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="22" stroke="url(#logo-grad-reg)" stroke-width="2.5" fill="none" />
+                        <path d="M16 32 L24 14 L32 32" stroke="url(#logo-grad-reg)" stroke-width="2.5" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="24" cy="20" r="3" fill="url(#logo-grad-reg)" />
+                        <defs>
+                            <linearGradient id="logo-grad-reg" x1="0" y1="0" x2="48" y2="48">
+                                <stop offset="0%" stop-color="#6C63FF" />
+                                <stop offset="100%" stop-color="#00D4AA" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <h1 class="registration-title">Mentor <span class="gradient-text">Registration</span></h1>
+                <p class="registration-subtitle">Share your wisdom and guide the next generation of talent.</p>
+            </div>
+
+            <form id="mentor-registration-form" class="registration-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="reg-name">Full Name</label>
+                        <input type="text" id="reg-name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-email">Work Email</label>
+                        <input type="email" id="reg-email" placeholder="john@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-role">Current Role</label>
+                        <input type="text" id="reg-role" placeholder="Senior SDE / AI Lead" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-company">Company / Organization</label>
+                        <input type="text" id="reg-company" placeholder="Google / Microsoft / Startup" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="reg-expertise">Expertise Area</label>
+                        <select id="reg-expertise" required>
+                            <option value="" disabled selected>Select your domain</option>
+                            <option value="SDE">Software Development (Full-Stack/Backend/Frontend)</option>
+                            <option value="AI/ML">AI / Machine Learning / Data Science</option>
+                            <option value="Product">Product Management</option>
+                            <option value="Design">UI/UX Design</option>
+                            <option value="Core">Core Engineering (Mech/Civil/EE)</option>
+                            <option value="Startup">Entrepreneurship / Startups</option>
+                            <option value="Govt">Government / PSU Sector</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="reg-bio">Why do you want to mentor?</label>
+                        <textarea id="reg-bio" placeholder="Tell us about your journey and how you can help students..." rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-linkedin">LinkedIn Profile URL</label>
+                        <input type="url" id="reg-linkedin" placeholder="https://linkedin.com/in/username">
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-exp">Years of Experience</label>
+                        <input type="number" id="reg-exp" placeholder="e.g. 5" min="0">
+                    </div>
+                </div>
+
+                <div class="form-footer">
+                    <button type="button" id="btn-reg-back" class="nav-btn secondary">Cancel</button>
+                    <button type="submit" class="nav-btn primary">Complete Registration</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- ==================== CHAT SCREEN ==================== -->
+    <div id="chat-screen" class="screen">
+        <div class="chat-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-header">
+                    <div class="logo-small">
+                        <svg width="28" height="28" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="22" stroke="url(#logo-grad2)" stroke-width="2.5" fill="none" />
+                            <path d="M16 32 L24 14 L32 32" stroke="url(#logo-grad2)" stroke-width="2.5" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <circle cx="24" cy="20" r="3" fill="url(#logo-grad2)" />
+                            <defs>
+                                <linearGradient id="logo-grad2" x1="0" y1="0" x2="48" y2="48">
+                                    <stop offset="0%" stop-color="#6C63FF" />
+                                    <stop offset="100%" stop-color="#00D4AA" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>AlumConnect</span>
+                    </div>
+                    <button class="sidebar-toggle" id="sidebar-close" aria-label="Close sidebar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 6L6 18M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-label">Quick Actions</h3>
+                    <div class="quick-actions">
+                        <button class="action-btn" data-action="career-roadmap" id="action-career-roadmap">
+                            <span class="action-icon">🗺️</span>
+                            <span>Career Roadmap</span>
+                        </button>
+                        <button class="action-btn" data-action="project-ideas" id="action-project-ideas">
+                            <span class="action-icon">💡</span>
+                            <span>Project Ideas</span>
+                        </button>
+                        <button class="action-btn" data-action="mock-interview" id="action-mock-interview">
+                            <span class="action-icon">🎤</span>
+                            <span>Mock Interview</span>
+                        </button>
+                        <button class="action-btn" data-action="resume-review" id="action-resume-review">
+                            <span class="action-icon">📄</span>
+                            <span>Resume Tips</span>
+                        </button>
+                        <button class="action-btn" data-action="industry-trends" id="action-industry-trends">
+                            <span class="action-icon">📈</span>
+                            <span>Industry Trends</span>
+                        </button>
+                        <button class="action-btn" data-action="compare-paths" id="action-compare-paths">
+                            <span class="action-icon">⚖️</span>
+                            <span>Compare Paths</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Current Mentor -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-label">Your Mentor</h3>
+                    <div class="mentor-card" id="mentor-card">
+                        <div class="mentor-avatar" id="mentor-avatar">👤</div>
+                        <div class="mentor-info">
+                            <span class="mentor-name" id="mentor-name">Loading...</span>
+                            <span class="mentor-role" id="mentor-role">—</span>
+                        </div>
+                        <div class="mentor-status">
+                            <span class="status-dot"></span>
+                            <span>Online</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Profile Summary -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-label">Your Profile</h3>
+                    <div class="profile-summary" id="profile-summary">
+                        <div class="profile-item">
+                            <span class="profile-label">Education</span>
+                            <span class="profile-value" id="profile-education">—</span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">Goal</span>
+                            <span class="profile-value" id="profile-goal">—</span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">Level</span>
+                            <span class="profile-value" id="profile-skill">—</span>
+                        </div>
+                    </div>
+                    <button class="reset-btn" id="btn-reset" aria-label="Reset profile">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M1 4v6h6M23 20v-6h-6" />
+                            <path d="M20.49 9A9 9 0 005.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 013.51 15" />
+                        </svg>
+                        Reset Profile
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Main Chat Area -->
+            <main class="chat-main">
+                <!-- Chat Header -->
+                <header class="chat-header">
+                    <button class="sidebar-toggle" id="sidebar-open" aria-label="Open sidebar">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M3 12h18M3 6h18M3 18h18" />
+                        </svg>
+                    </button>
+                    <div class="chat-header-info">
+                        <span class="chat-header-name" id="chat-header-name">AlumConnect</span>
+                        <span class="chat-header-status">
+                            <span class="status-dot"></span>
+                            Mentor is online
+                        </span>
+                    </div>
+                    <div class="chat-header-actions">
+                        <button class="icon-btn" id="btn-new-chat" aria-label="New conversation"
+                            title="New conversation">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 5v14M5 12h14" />
+                            </svg>
+                        </button>
+                    </div>
+                </header>
+
+                <!-- Messages Area -->
+                <div class="messages-container" id="messages-container">
+                    <div class="messages-wrapper" id="messages-wrapper">
+                        <!-- Messages will be inserted here -->
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-area">
+                    <div class="input-container">
+                        <div class="suggestion-chips" id="suggestion-chips">
+                            <!-- Dynamic suggestion chips -->
+                        </div>
+                        <div class="input-wrapper">
+                            <textarea id="message-input" placeholder="Ask your alumni mentor anything..." rows="1"
+                                aria-label="Message input"></textarea>
+                            <button class="send-btn" id="btn-send" aria-label="Send message" disabled>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <p class="input-hint">Press Enter to send · Shift+Enter for new line</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="alumni-data.js"></script>
+    <script src="chat-engine.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
