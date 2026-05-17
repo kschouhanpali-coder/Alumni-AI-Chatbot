@@ -1,4 +1,5 @@
 # Alumni-AI-Chatbot
+
 Developed an AI-powered Alumni Guidance Chatbot designed to help students connect with alumni for mentorship, career guidance, project ideas, resume tips, mock interviews, and industry insights. Built with a modern responsive UI and AI-assisted development workflows to create an interactive and personalized mentoring experience.
 
 # AlumConnect 🎓
@@ -9,15 +10,21 @@ AlumConnect is an AI-powered mentorship platform that connects students and earl
 
 ---
 
+## 🌐 Live Demo
+
+**👉 [Try AlumConnect Now](https://kschouhanpali-coder.github.io/Alumni-AI-Chatbot/)**
+
+> No installation needed — open in your browser and start exploring.
+
+---
+
 ## 🚀 Features
 
 - **Smart Onboarding** — 3-step questionnaire to match users with the right mentor persona
   - Education level (B.Tech, M.Tech, Recent Graduate, Working Pro, etc.)
   - Career goal (Software Dev, AI/ML, Data Science, Core Engg., Startup, Govt/PSU, Product Mgmt, Cybersecurity)
   - Current skill level (Beginner / Intermediate / Advanced)
-
 - **AI Mentor Chat** — Personalized alumni mentor (e.g., *Priya Sharma, ML Engineer at an AI startup*) who gives real, experience-backed advice
-
 - **Quick Actions Sidebar**
   - 📋 Career Roadmap — step-by-step plan tailored to your level
   - 💡 Project Ideas — high-impact projects that get interviews
@@ -25,9 +32,7 @@ AlumConnect is an AI-powered mentorship platform that connects students and earl
   - 📄 Resume Tips — what recruiters look for in 7 seconds
   - 📈 Industry Trends — what's actually happening in the market
   - 🔀 Compare Paths — evaluate different career directions
-
 - **Profile Panel** — Displays your selected education, goal, and level; reset anytime
-
 - **Mentor Registration** — Alumni and professionals can join as mentors via *"Join as a Mentor"*
 
 ---
