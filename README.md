@@ -1,56 +1,102 @@
-# Alumni-AI-Chatbot
+<div align="center">
 
-Developed an AI-powered Alumni Guidance Chatbot designed to help students connect with alumni for mentorship, career guidance, project ideas, resume tips, mock interviews, and industry insights. Built with a modern responsive UI and AI-assisted development workflows to create an interactive and personalized mentoring experience.
+# 🎓 AlumConnect
 
-# AlumConnect 🎓
+**Your personal alumni mentor network — powered by experience, not textbooks.**
 
-> **Your personal alumni mentor network — powered by experience, not textbooks.**
+An AI-powered mentorship platform that connects students and early-career professionals with personalized alumni mentors — offering career roadmaps, project ideas, mock interviews, resume tips, and industry insights tailored to you.
 
-AlumConnect is an AI-powered mentorship platform that connects students and early-career professionals with personalized alumni mentors. Through a smart onboarding flow, users are matched with a virtual alumni mentor who guides them with career roadmaps, project ideas, mock interviews, resume tips, and industry trends — all tailored to their education level, career goal, and current skill level.
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_Now-6C63FF?style=for-the-badge)](https://kschouhanpali-coder.github.io/Alumni-AI-Chatbot/)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</div>
+
+---
+
+## 📖 Table of Contents
+
+- [Overview](#-overview)
+- [Live Demo](#-live-demo)
+- [Features](#-features)
+- [Example Mentor Persona](#-example-mentor-persona)
+- [Tech Stack](#️-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#️-getting-started)
+- [Target Users](#-target-users)
+- [Contributing](#-contributing)
+
+---
+
+## 🎯 Overview
+
+**AlumConnect** bridges the gap between students and the alumni who've already walked their path. Through a smart onboarding flow, users are matched with a virtual alumni mentor persona who delivers real, experience-backed guidance — not generic advice — tailored to their education level, career goal, and current skill level.
 
 ---
 
 ## 🌐 Live Demo
 
-**👉 [Try AlumConnect Now](https://kschouhanpali-coder.github.io/Alumni-AI-Chatbot/)**
+<div align="center">
 
-> No installation needed — open in your browser and start exploring.
+### 👉 [**Try AlumConnect Now**](https://kschouhanpali-coder.github.io/Alumni-AI-Chatbot/)
+
+*No installation needed — open in your browser and start exploring.*
+
+</div>
 
 ---
 
 ## 🚀 Features
 
-- **Smart Onboarding** — 3-step questionnaire to match users with the right mentor persona
-  - Education level (B.Tech, M.Tech, Recent Graduate, Working Pro, etc.)
-  - Career goal (Software Dev, AI/ML, Data Science, Core Engg., Startup, Govt/PSU, Product Mgmt, Cybersecurity)
-  - Current skill level (Beginner / Intermediate / Advanced)
-- **AI Mentor Chat** — Personalized alumni mentor (e.g., *Priya Sharma, ML Engineer at an AI startup*) who gives real, experience-backed advice
-- **Quick Actions Sidebar**
-  - 📋 Career Roadmap — step-by-step plan tailored to your level
-  - 💡 Project Ideas — high-impact projects that get interviews
-  - 🎤 Mock Interview — real questions with feedback
-  - 📄 Resume Tips — what recruiters look for in 7 seconds
-  - 📈 Industry Trends — what's actually happening in the market
-  - 🔀 Compare Paths — evaluate different career directions
-- **Profile Panel** — Displays your selected education, goal, and level; reset anytime
-- **Mentor Registration** — Alumni and professionals can join as mentors via *"Join as a Mentor"*
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### 🧭 Smart Onboarding
+A 3-step questionnaire matches users with the right mentor persona:
+- **Education level** — B.Tech, M.Tech, Recent Graduate, Working Pro, and more
+- **Career goal** — Software Dev, AI/ML, Data Science, Core Engg., Startup, Govt/PSU, Product Mgmt, Cybersecurity
+- **Skill level** — Beginner / Intermediate / Advanced
+
+### 💬 AI Mentor Chat
+A personalized alumni mentor (e.g., *Priya Sharma, ML Engineer at an AI startup*) delivers real, experience-backed advice.
+
+</td>
+<td valign="top" width="50%">
+
+### ⚡ Quick Actions Sidebar
+- 📋 **Career Roadmap** — a step-by-step plan tailored to your level
+- 💡 **Project Ideas** — high-impact projects that get interviews
+- 🎤 **Mock Interview** — real questions with feedback
+- 📄 **Resume Tips** — what recruiters look for in 7 seconds
+- 📈 **Industry Trends** — what's actually happening in the market
+- 🔀 **Compare Paths** — evaluate different career directions
+
+### 👤 Profile & Mentorship
+- **Profile Panel** — view your selected education, goal, and level; reset anytime
+- **Mentor Registration** — alumni and professionals can join via *"Join as a Mentor"*
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧠 Example Mentor Persona
 
-**Priya Sharma** — ML Engineer at an AI Startup
-- Did B.Tech in CSE, self-taught ML during college
+**Priya Sharma** — *ML Engineer at an AI Startup*
+- B.Tech in CSE, self-taught ML during college
 - Published a research paper
 - Landed her role through a viral Kaggle project
 
-*Sample project suggestions from Priya:*
+**Sample project suggestions from Priya:**
 
 | Project | Stack | Difficulty |
 |---|---|---|
-| AI-Powered Resume Screener | Python, HuggingFace Transformers, FastAPI, Streamlit | Medium |
-| Custom RAG Chatbot for College Docs | LangChain, ChromaDB, OpenAI API, Streamlit | Medium |
-| Deepfake Detection System | PyTorch, OpenCV, EfficientNet, Gradio | Hard |
+| AI-Powered Resume Screener | Python, HuggingFace Transformers, FastAPI, Streamlit | 🟡 Medium |
+| Custom RAG Chatbot for College Docs | LangChain, ChromaDB, OpenAI API, Streamlit | 🟡 Medium |
+| Deepfake Detection System | PyTorch, OpenCV, EfficientNet, Gradio | 🔴 Hard |
 
 ---
 
@@ -58,38 +104,40 @@ AlumConnect is an AI-powered mentorship platform that connects students and earl
 
 | Layer | Technology |
 |---|---|
-| Frontend | HTML, CSS, JavaScript |
-| Dev Server | Vite / Live Server |
-| AI / Chat | LLM API (OpenAI / Gemini) |
-| Styling | Custom dark theme UI |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Dev Server** | Vite / Live Server |
+| **AI / Chat** | LLM API (OpenAI / Gemini) |
+| **Styling** | Custom dark theme UI |
 
 ---
 
 ## 📁 Project Structure
 
-```
+```bash
 alumconnect/
 ├── index.html          # Entry point & onboarding flow
 ├── style.css           # Dark-themed global styles
 ├── app.js              # Core logic & mentor chat
-├── mentors/            # Mentor persona definitions
-└── assets/             # Icons and images
+├── mentors/             # Mentor persona definitions
+└── assets/              # Icons and images
 ```
 
 ---
 
 ## ⚙️ Getting Started
 
+**1. Clone the repository**
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/alumconnect.git
-
-# Navigate into the project
 cd alumconnect
+```
 
-# Open with Live Server or any static server
+**2. Serve the project locally**
+```bash
 npx serve .
 ```
+
+*Or open `index.html` directly with Live Server / any static server.*
 
 ---
 
@@ -106,12 +154,8 @@ npx serve .
 
 Want to add a new mentor persona or career path? Feel free to open a PR or raise an issue!
 
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
-
----
-
-*Built with ❤️ to make real mentorship accessible to every student.*
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/new-mentor`)
+3. Commit your changes (`git commit -m 'Add new mentor persona'`)
+4. Push to the branch (`git push origin feature/new-mentor`)
+5. Open a pull request
