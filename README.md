@@ -2,14 +2,18 @@
 
 # 🎓 AlumConnect
 
-**Your personal alumni mentor network — powered by experience, not textbooks.**
+### Your Personal Alumni Mentor Network
+
+**Powered by experience, not textbooks.**
 
 An AI-powered mentorship platform that connects students and early-career professionals with personalized alumni mentors — offering career roadmaps, project ideas, mock interviews, resume tips, and industry insights tailored to you.
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_Now-6C63FF?style=for-the-badge)](https://kschouhanpali-coder.github.io/Alumni-AI-Chatbot/)
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </div>
 
@@ -25,7 +29,11 @@ An AI-powered mentorship platform that connects students and early-career profes
 - [Project Structure](#-project-structure)
 - [Getting Started](#️-getting-started)
 - [Target Users](#-target-users)
+- [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
+- [Support & Contact](#-support--contact)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -113,7 +121,7 @@ A personalized alumni mentor (e.g., *Priya Sharma, ML Engineer at an AI startup*
 
 ## 📁 Project Structure
 
-```bash
+```
 alumconnect/
 ├── index.html          # Entry point & onboarding flow
 ├── style.css           # Dark-themed global styles
@@ -126,13 +134,17 @@ alumconnect/
 
 ## ⚙️ Getting Started
 
-**1. Clone the repository**
+### Prerequisites
+- Node.js `v16+` (for `npx serve`) or any static file server
+- An LLM API key (OpenAI / Gemini) if running the mentor chat locally
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/alumconnect.git
 cd alumconnect
 ```
 
-**2. Serve the project locally**
+### 2. Serve the project locally
 ```bash
 npx serve .
 ```
@@ -143,10 +155,22 @@ npx serve .
 
 ## 🎯 Target Users
 
-- B.Tech / M.Tech students (1st year to final year)
-- Recent graduates (0–1 year experience)
-- Self-taught developers and bootcamp graduates
-- Working professionals looking to switch careers
+| Audience | Why AlumConnect Fits |
+|---|---|
+| 🎓 B.Tech / M.Tech Students | Get a roadmap before you even need one |
+| 🧑‍🎓 Recent Graduates (0–1 yr exp) | Bridge the gap between degree and job-ready |
+| 💻 Self-Taught Developers & Bootcamp Grads | Real feedback beyond tutorials |
+| 🔄 Working Professionals Switching Careers | Learn from someone who's made the jump |
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Live 1:1 video mentorship sessions
+- [ ] Community forum for peer-to-peer Q&A
+- [ ] Expanded mentor persona library across more industries
+- [ ] Progress tracking against your career roadmap
+- [ ] Mobile app version
 
 ---
 
@@ -159,3 +183,45 @@ Want to add a new mentor persona or career path? Feel free to open a PR or raise
 3. Commit your changes (`git commit -m 'Add new mentor persona'`)
 4. Push to the branch (`git push origin feature/new-mentor`)
 5. Open a pull request
+
+---
+
+## 💬 Support & Contact
+
+Have a question, found a bug, or want to suggest a new mentor persona?
+
+| Channel | Link |
+|---|---|
+| 🐛 Report a Bug | [Open an Issue](https://github.com/your-username/alumconnect/issues) |
+| 💡 Request a Feature | [Start a Discussion](https://github.com/your-username/alumconnect/discussions) |
+| 🧑‍🏫 Join as a Mentor | Available directly in the app |
+| ⭐ Show Support | Star this repo if AlumConnect helped guide your path! |
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute with attribution. See the `LICENSE` file for full terms.
+
+---
+
+## 🙌 Acknowledgments
+
+| Contribution | Powered By |
+|---|---|
+| 🧑‍🏫 Mentor Persona Design | AI-assisted persona & dialogue writing |
+| 💬 Conversational Guidance | LLM API (OpenAI / Gemini) |
+| 🎨 UI & Styling | Custom dark theme, vanilla CSS |
+| 🧩 Onboarding Logic | Vanilla JavaScript |
+
+<div align="center">
+
+<br>
+
+<img src="https://img.shields.io/badge/Made_with-🎓_AlumConnect-0a0a12?style=for-the-badge&labelColor=1a1a1a&color=6C63FF" alt="Made with AlumConnect"/>
+
+### *"Guidance from those who've already walked the path."*
+
+<sub>⭐ If AlumConnect helped point you in the right direction, consider giving it a star. ⭐</sub>
+
+</div>
