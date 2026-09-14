@@ -35,9 +35,13 @@ An AI-powered mentorship platform that connects students and early-career profes
 | [🎯 Overview](#-overview) | [🚀 Features](#-features) | [🧠 Example Mentor Persona](#-example-mentor-persona) |
 | [🛠️ Tech Stack](#️-tech-stack) | [📁 Project Structure](#-project-structure) | [⚙️ Getting Started](#️-getting-started) |
 | [🎯 Target Users](#-target-users) | [🧭 Roadmap](#-roadmap) | [🤝 Contributing](#-contributing) |
-| [📄 License](#-license) | [👤 Credits & Contact](#-credits--contact) | |
+| [🌐 Live Demo](#-live-demo) | [📄 License](#-license) | [👤 Credits & Contact](#-credits--contact) |
 
-### 🌐 Live Demo
+<br/>
+
+---
+
+## 🌐 Live Demo
 
 <div align="center">
 
@@ -273,37 +277,33 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 
 <div align="center">
 
-### 🎓 Made with precision — AlumConnect
+🎓
+
+### Built by [Your Name](https://github.com/your-username)
 
 *"Guidance from those who've already walked the path."*
 
-<br/>
-
 </div>
 
-**Have a question, found a bug, or want to suggest a new mentor persona?**
+<br/>
 
-| Channel | Link |
-|:---:|---|
-| 🐛 Report a Bug | [Open an Issue](https://github.com/your-username/alumconnect/issues) |
-| 💡 Request a Feature | [Start a Discussion](https://github.com/your-username/alumconnect/discussions) |
-| 🧑‍🏫 Join as a Mentor | Available directly in the app |
-| ⭐ Show Support | Star this repo if AlumConnect helped guide your path! |
+> 📬 **Get in touch** — reach out on [GitHub](https://github.com/your-username), [X / Twitter](https://twitter.com/your-username), or via [email](mailto:you@example.com).
+>
+> 🐛 **Found a bug?** [Open an issue](https://github.com/your-username/alumconnect/issues) and I'll take a look.
+>
+> 💡 **Have an idea for a new mentor persona?** [Start a discussion](https://github.com/your-username/alumconnect/discussions) — I'd love to hear it.
+>
+> 🧑‍🏫 **Want to mentor?** You can join directly as an alumni mentor right inside the app.
+>
+> ⭐ **Enjoying AlumConnect?** A star on the repo helps others find their way here too.
 
-**Acknowledgments**
+<br/>
 
-| Contribution | Powered By |
-|---|---|
-| 🧑‍🏫 Mentor Persona Design | AI-assisted persona & dialogue writing |
-| 💬 Conversational Guidance | LLM API (OpenAI / Gemini) |
-| 🎨 UI & Styling | Custom dark theme, vanilla CSS |
-| 🧩 Onboarding Logic | Vanilla JavaScript |
+AlumConnect's mentor personas and conversational guidance are shaped with an **LLM API (OpenAI / Gemini)**, the interface is hand-built with **vanilla HTML, CSS, and JavaScript**, and the onboarding logic runs entirely client-side.
 
 <div align="center">
 
 <br/>
-
-<img src="https://img.shields.io/badge/Made_with-🎓_AlumConnect-1a1a1a?style=for-the-badge&labelColor=1a1a1a&color=6C63FF" alt="Made with AlumConnect"/>
 
 <sub>⭐ If AlumConnect helped point you in the right direction, consider giving it a star.</sub>
 
