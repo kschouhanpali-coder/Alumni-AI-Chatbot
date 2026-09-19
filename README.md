@@ -29,33 +29,6 @@ A personalized alumni mentorship chatbot that matches you with a mentor, then gu
 
 ---
 
-## 📸 Preview
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/01-education-level.png" alt="Step 1 - Education level" /><br />
-      <sub><b>Step 1</b> · Education Level</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/02-career-goal.png" alt="Step 2 - Career goal" /><br />
-      <sub><b>Step 2</b> · Career Goal</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/03-skill-level.png" alt="Step 3 - Skill level" /><br />
-      <sub><b>Step 3</b> · Skill Level</sub>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="docs/screenshots/04-mentor-chat.png" alt="Mentor chat with Mock Interview Mode" width="100%" />
-  <br />
-  <sub><b>Mentor Chat</b> · Mock Interview Mode in action</sub>
-</p>
-
----
-
 ## ✨ Features
 
 - 🎯 **Guided Onboarding** - 3 quick steps (education, career goal, skill level) that personalize every response
