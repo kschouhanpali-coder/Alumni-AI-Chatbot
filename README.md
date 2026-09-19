@@ -1,314 +1,162 @@
-<div align="center" id="top">
+<div align="center">
 
-# 🎓 ALUMCONNECT
+# 🎓 AlumConnect 🎓
 
-<img src="https://img.shields.io/badge/-%F0%9F%8E%93%20YOUR%20PERSONAL%20ALUMNI%20MENTOR%20NETWORK%20%F0%9F%8E%93-1a1a1a?style=flat-square&labelColor=1a1a1a&color=6C63FF" alt="Your Personal Alumni Mentor Network"/>
+### Ask Alumni. Practice Interviews. Plan Your Career.
 
-### Powered by experience, not textbooks
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Type](https://img.shields.io/badge/Type-Mentorship%20Chatbot-6366f1?style=for-the-badge)
 
-An AI-powered mentorship platform that connects students and early-career professionals with personalized alumni mentors — offering career roadmaps, project ideas, mock interviews, resume tips, and industry insights tailored to you.
+A personalized alumni mentorship chatbot that matches you with a mentor, then guides you with career roadmaps, project ideas, mock interviews, and resume tips — through a dark-themed chat interface.
 
-<br/>
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/status-active-2ea44f?style=flat-square" alt="status"/>
-  <img src="https://img.shields.io/badge/license-MIT-6C63FF?style=flat-square" alt="license"/>
-  <img src="https://img.shields.io/badge/AI--powered-mentorship-6C63FF?style=flat-square" alt="AI-powered mentorship"/>
-  <img src="https://img.shields.io/badge/mentors-persona--based-2ea44f?style=flat-square" alt="persona-based mentors"/>
-  <img src="https://img.shields.io/badge/PRs-welcome-6C63FF?style=flat-square" alt="PRs welcome"/>
-</p>
+*Your personal alumni mentor network — powered by experience, not textbooks.*
 
 </div>
 
-<br/>
-
-## 📖 Table of Contents
-
-| | | |
-|---|---|---|
-| [🎯 Overview](#-overview) | [🚀 Features](#-features) | [🧠 Example Mentor Persona](#-example-mentor-persona) |
-| [🛠️ Tech Stack](#️-tech-stack) | [📁 Project Structure](#-project-structure) | [⚙️ Getting Started](#️-getting-started) |
-| [🎯 Target Users](#-target-users) | [🧭 Roadmap](#-roadmap) | [🤝 Contributing](#-contributing) |
-| [🌐 Live Demo](#-live-demo) | [📄 License](#-license) | [👤 Credits & Contact](#-credits--contact) |
-
-<br/>
-
 ---
 
-## 🌐 Live Demo
+## 🚀 Live Demo
 
 <div align="center">
 
-[![🌐 Try AlumConnect Now](https://img.shields.io/badge/🌐_TRY_ALUMCONNECT_NOW-6C63FF?style=for-the-badge&labelColor=1a1a1a)](https://kschouhanpali-coder.github.io/Alumni-AI-Chatbot/)
+### **[▶️ LAUNCH ALUMCONNECT - Live Demo](https://kschouhanpali-coder.github.io/)**
 
-<sub>No installation needed · Open in your browser and start exploring</sub>
-
-</div>
-
-<br/>
-
----
-
-## 🎯 Overview
-
-**AlumConnect** bridges the gap between students and the alumni who've already walked their path. Through a smart onboarding flow, users are matched with a virtual alumni mentor persona who delivers real, experience-backed guidance — not generic advice — tailored to their education level, career goal, and current skill level.
-
-<div align="center">
-
-| 🧭 | 💬 | ⚡ | 👤 |
-|:---:|:---:|:---:|:---:|
-| **Smart Onboarding**<br/>3-step persona match | **AI Mentor Chat**<br/>Real, experience-backed advice | **Quick Actions**<br/>Roadmaps, mock interviews & more | **Profile & Mentorship**<br/>Track progress, join as a mentor |
+*Click above to meet your alumni mentor directly in your browser!*
 
 </div>
 
-<br/>
-
 ---
 
-## 🚀 Features
-
-<table width="100%">
-<tr>
-<th align="left" width="50%">🧭 Onboarding & Guidance</th>
-<th align="left" width="50%">⚡ Tools & Profile</th>
-</tr>
-<tr>
-<td valign="top">
-
-**🧭 Smart Onboarding**
-A 3-step questionnaire matches users with the right mentor persona:
-- **Education level** — B.Tech, M.Tech, Recent Graduate, Working Pro, and more
-- **Career goal** — Software Dev, AI/ML, Data Science, Core Engg., Startup, Govt/PSU, Product Mgmt, Cybersecurity
-- **Skill level** — Beginner / Intermediate / Advanced
-
-**💬 AI Mentor Chat**
-A personalized alumni mentor (e.g., *Priya Sharma, ML Engineer at an AI startup*) delivers real, experience-backed advice.
-
-</td>
-<td valign="top">
-
-**⚡ Quick Actions Sidebar**
-- 📋 **Career Roadmap** — a step-by-step plan tailored to your level
-- 💡 **Project Ideas** — high-impact projects that get interviews
-- 🎤 **Mock Interview** — real questions with feedback
-- 📄 **Resume Tips** — what recruiters look for in 7 seconds
-- 📈 **Industry Trends** — what's actually happening in the market
-- 🔀 **Compare Paths** — evaluate different career directions
-
-**👤 Profile & Mentorship**
-- **Profile Panel** — view your selected education, goal, and level; reset anytime
-- **Mentor Registration** — alumni and professionals can join via *"Join as a Mentor"*
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-## 🧠 Example Mentor Persona
-
-<div align="center">
-
-### Priya Sharma — *ML Engineer at an AI Startup*
-
-</div>
-
-- B.Tech in CSE, self-taught ML during college
-- Published a research paper
-- Landed her role through a viral Kaggle project
-
-**Sample project suggestions from Priya:**
-
-<div align="center">
-
-| Project | Stack | Difficulty |
-|---|---|:---:|
-| AI-Powered Resume Screener | Python, HuggingFace Transformers, FastAPI, Streamlit | 🟡 Medium |
-| Custom RAG Chatbot for College Docs | LangChain, ChromaDB, OpenAI API, Streamlit | 🟡 Medium |
-| Deepfake Detection System | PyTorch, OpenCV, EfficientNet, Gradio | 🔴 Hard |
-
-</div>
-
-<br/>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-| Layer | Technology |
-|:---:|---|
-| 🧱 **Frontend** | HTML, CSS, JavaScript |
-| 🖥️ **Dev Server** | Vite / Live Server |
-| 🤖 **AI / Chat** | LLM API (OpenAI / Gemini) |
-| 🎨 **Styling** | Custom dark theme UI |
-
-</div>
-
-<br/>
-
----
-
-## 📁 Project Structure
-
-```bash
-alumconnect/
-├── index.html          # 🎯 Entry point & onboarding flow
-├── style.css           # 🎨 Dark-themed global styles
-├── app.js               # ⚙️ Core logic & mentor chat
-├── mentors/              # 🧑‍🏫 Mentor persona definitions
-└── assets/               # 🖼️ Icons and images
-```
-
-<div align="center">
-
-| Path | Responsibility |
-|---|---|
-| `index.html` | Entry point and onboarding flow |
-| `style.css` | Global dark-theme styling |
-| `app.js` | Core application logic and mentor chat |
-| `mentors/` | Persona definitions for each alumni mentor |
-| `assets/` | Icons and images used across the app |
-
-</div>
-
-<br/>
-
----
-
-## ⚙️ Getting Started
-
-### Prerequisites
-- Node.js `v16+` (for `npx serve`) or any static file server
-- An LLM API key (OpenAI / Gemini) if running the mentor chat locally
+## 📸 Preview
 
 <table>
-<tr><td>
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/01-education-level.png" alt="Step 1 - Education level" /><br />
+      <sub><b>Step 1</b> · Education Level</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/02-career-goal.png" alt="Step 2 - Career goal" /><br />
+      <sub><b>Step 2</b> · Career Goal</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/03-skill-level.png" alt="Step 3 - Skill level" /><br />
+      <sub><b>Step 3</b> · Skill Level</sub>
+    </td>
+  </tr>
+</table>
 
-**1️⃣ Clone the repository**
+<p align="center">
+  <img src="docs/screenshots/04-mentor-chat.png" alt="Mentor chat with Mock Interview Mode" width="100%" />
+  <br />
+  <sub><b>Mentor Chat</b> · Mock Interview Mode in action</sub>
+</p>
+
+---
+
+## ✨ Features
+
+- 🎯 **Guided Onboarding** - 3 quick steps (education, career goal, skill level) that personalize every response
+- 🧑‍🏫 **Mentor Matching** - Get paired with an alumni mentor relevant to your chosen career track
+- 🗺️ **Career Roadmap** - Step-by-step plan tailored to your current level
+- 💡 **Project Ideas** - High-impact projects that actually get you interviews
+- 🎤 **Mock Interview Mode** - Real questions by topic and difficulty, with honest feedback on your answers
+- 📈 **Industry Trends** - What's actually happening in the market right now
+- 📄 **Resume Tips** - What recruiters look for in the first 7 seconds
+- ⚖️ **Compare Paths** - Weigh different career options side by side
+- 👤 **Profile Sidebar** - Your education, goal, and level always visible, with one-click reset
+- 🤝 **Join as a Mentor** - Alumni and professionals can sign up to mentor others
+
+---
+
+## 🏁 Quick Start
+
+### Use Online
+No installation needed! [Launch the live demo](https://kschouhanpali-coder.github.io/)
+
+### Run Locally
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/alumconnect.git
+git clone https://github.com/kschouhanpali-coder/alumconnect.git
 cd alumconnect
 ```
 
-**2️⃣ Serve the project locally**
+2. Open the app in your browser:
 ```bash
-npx serve .
+open index.html          # macOS
+# start index.html       # Windows
+# xdg-open index.html    # Linux
 ```
 
-*Or open `index.html` directly with Live Server / any static server.*
+**Or serve it with a local web server:**
+```bash
+python3 -m http.server 8000
+```
 
-</td></tr>
-</table>
-
-<br/>
+3. Visit `http://localhost:8000` in your browser
 
 ---
 
-## 🎯 Target Users
+## 🎯 How to Use
+
+1. **Complete the Onboarding** - pick your education level, career goal, and skill level
+2. **Meet Your Mentor** - you'll be matched with an alumni mentor for your track
+3. **Use Quick Actions** - open the sidebar to get a Career Roadmap, Project Ideas, Resume Tips, and more
+4. **Practice Interviews** - start Mock Interview Mode, answer the question, and get feedback
+5. **Ask Anything** - type your own questions, or tap a suggestion chip to get started
+6. **Reset Anytime** - change your profile from the sidebar to get fresh guidance
+
+> ⌨️ Press `Enter` to send · `Shift + Enter` for a new line
+
+---
+
+## 🗂️ Module Navigation
+
+| Module | Description |
+|--------|-------------|
+| **Career Roadmap** | Step-by-step plan tailored to your level and goal |
+| **Project Ideas** | High-impact projects that get interviews |
+| **Mock Interview** | Real questions with topic, difficulty, and feedback |
+| **Resume Tips** | What recruiters look for in 7 seconds |
+| **Industry Trends** | Current market movements and demand |
+| **Compare Paths** | Side-by-side comparison of career options |
+| **Your Mentor** | Mentor card with name, role, and online status |
+| **Your Profile** | Education, goal, and level summary with reset option |
+
+---
+
+## 👥 Supported Profiles
+
+| Category | Options |
+|----------|---------|
+| **Education Level** | B.Tech/B.E. (1st–2nd Year) · B.Tech/B.E. (3rd–4th Year) · M.Tech / MS · Recent Graduate · Working Pro · Other (Self-taught / Bootcamp) |
+| **Career Goal** | Software Dev · AI / ML · Data Science · Core Engg. · Startup · Govt / PSU · Product Mgmt · Cybersecurity |
+| **Skill Level** | 🌱 Beginner · 🌿 Intermediate · 🌳 Advanced |
+
+---
+
+## 💻 Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript
+- **UI:** Custom dark theme with gradient accents
+- **Chat Engine:** Your chatbot logic / API of choice
+- **Hosting:** GitHub Pages
+
+---
+
+## 📝 License
+
+MIT License - Free to use and modify
+
+---
 
 <div align="center">
 
-| Audience | Why AlumConnect Fits |
-|:---:|---|
-| 🎓 B.Tech / M.Tech Students | Get a roadmap before you even need one |
-| 🧑‍🎓 Recent Graduates (0–1 yr exp) | Bridge the gap between degree and job-ready |
-| 💻 Self-Taught Developers & Bootcamp Grads | Real feedback beyond tutorials |
-| 🔄 Working Professionals Switching Careers | Learn from someone who's made the jump |
+**[Live Demo](https://kschouhanpali-coder.github.io/) | [GitHub](https://github.com/kschouhanpali-coder/alumconnect) | [Report Issues](https://github.com/kschouhanpali-coder/alumconnect/issues)**
 
-</div>
-
-<br/>
-
----
-
-## 🧭 Roadmap
-
-| Status | Feature |
-|:---:|---|
-| ⏳ | Live 1:1 video mentorship sessions |
-| ⏳ | Community forum for peer-to-peer Q&A |
-| ⏳ | Expanded mentor persona library across more industries |
-| ⏳ | Progress tracking against your career roadmap |
-| ⏳ | Mobile app version |
-
-<br/>
-
----
-
-## 🤝 Contributing
-
-Want to add a new mentor persona or career path? Feel free to open a PR or raise an issue!
-
-<table>
-<tr><td>
-
-1. 🍴 Fork the project
-2. 🌱 Create your feature branch — `git checkout -b feature/new-mentor`
-3. 💾 Commit your changes — `git commit -m 'Add new mentor persona'`
-4. 🚀 Push to the branch — `git push origin feature/new-mentor`
-5. 🔁 Open a pull request
-
-</td></tr>
-</table>
-
-<br/>
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — free to use, modify, and distribute with attribution. See the `LICENSE` file for full terms.
-
-<br/>
-
----
-
-## 👤 Credits & Contact
-
-<div align="center">
-
-🎓
-
-### Built by [Your Name](https://github.com/your-username)
-
-*"Guidance from those who've already walked the path."*
-
-</div>
-
-<br/>
-
-> 📬 **Get in touch** — reach out on [GitHub](https://github.com/your-username), [X / Twitter](https://twitter.com/your-username), or via [email](mailto:you@example.com).
->
-> 🐛 **Found a bug?** [Open an issue](https://github.com/your-username/alumconnect/issues) and I'll take a look.
->
-> 💡 **Have an idea for a new mentor persona?** [Start a discussion](https://github.com/your-username/alumconnect/discussions) — I'd love to hear it.
->
-> 🧑‍🏫 **Want to mentor?** You can join directly as an alumni mentor right inside the app.
->
-> ⭐ **Enjoying AlumConnect?** A star on the repo helps others find their way here too.
-
-<br/>
-
-AlumConnect's mentor personas and conversational guidance are shaped with an **LLM API (OpenAI / Gemini)**, the interface is hand-built with **vanilla HTML, CSS, and JavaScript**, and the onboarding logic runs entirely client-side.
-
-<div align="center">
-
-<br/>
-
-<sub>⭐ If AlumConnect helped point you in the right direction, consider giving it a star.</sub>
-
-<br/>
-
-**[⬆ Back to top](#top)**
+*Learn from Experience. Connect with Alumni. Grow with Purpose.* 🎓
 
 </div>
